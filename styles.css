@@ -1,0 +1,45 @@
+#google-flexbox {
+    display: flex;
+    font-family: sans-serif;
+}
+
+#google-logo {
+    width: 272;
+}
+
+#letter-g1 {
+    color: rgb(56, 108, 241);
+}
+
+#letter-o1 {
+    color: rgb(226, 44, 41);
+}
+
+#letter-o2 {
+    color: rgb(249, 176, 12);
+}
+
+#letter-g2 {
+    color: rgb(45, 156, 66);
+}
+
+#letter-l {
+    color: rgb(56, 108, 241);
+}
+
+#letter-e {
+    color: rgb(226, 44, 41);
+}
+
+#magnifying-glass {
+    height: 1.5em;
+}
+
+#search-outline {
+    border: 1px solid gray;
+}
+
+#site-search {
+    border-radius: 25px;
+}
+

@@ -1,0 +1,95 @@
+<DOCTYPE! html>
+    <!--Only the head and body elements are supposed to be direct descendants of the html element. All others should be descendants of either the head or body-->
+
+    <head>
+        <!--The head element must be a direct descendant of the html element-->
+        <!--The head element is a very busy place for most websites, so we've created a tutorial to walk you through the different elements and tasks accomplished in the head element. You can find it at the following address: https://html.com/document/metadata/ -->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <!--<script src=""></script>-->
+        <title>Your Webpage Title Goes Here</title>
+    </head>
+
+    <body>
+        <!--The body element contains the full visible content of the web page-->
+        <header>
+            <!--The header typically includes your logo, tagline, and may contain a nav element-->
+            <nav id="test-nav">
+                <ul>
+                    <li>About</li>
+                    <li>Store</li>
+                </ul>
+                <ul>
+                    <li>Gmail</li>
+                    <li>Images</li>
+                    <li>GoogleApps Menu</li>
+                    <li>AccountIMG</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--<div id="google-flexbox">
+            <h1 id="letter-g1">G</h1>
+            <h1 id="letter-o1">o</h1>
+            <h1 id="letter-o2">o</h1>
+            <h1 id="letter-g2">g</h1>
+            <h1 id="letter-l">l</h1>
+            <h1 id="letter-e">e</h1>
+        </div>-->
+            <div>
+                <img id="google-logo"
+                    src="https://cdn.vox-cdn.com/thumbor/E9RM8-qg-iyLEAzP4d7tobqI09o=/0x0:2012x1341/1400x933/filters:focal(0x0:2012x1341):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" />
+                <div id="search-outline">
+                    <img id="magnifying=glass"
+                        src="https://www.pngkit.com/png/detail/26-269603_search-magnifying-glass-icon-png-grey.png" />
+                    <form id="google-search-form">
+                        <label for="site-search"></label>
+                        <input type="search" id="site-search" name="q" aria-label="Search through site content">
+
+                        <button>Search by Voice</button>
+
+                    </form>
+                </div>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+
+            <!--The main element cannot be used inside of anything other than the body element. It is intended to hold the main content of the page.-->
+            <nav>
+                <!--You can use a nav element just about anywhere-->
+            </nav>
+            <article>
+                <!--If your web page contains a blog post or news article it makes sense to wrap the whole article in article tags-->
+                <aside>
+                    <!--The aside tag can be used within an article or outside of it. It is used to mark content that is related but not central to the main content of the page-->
+                </aside>
+                <section>
+                    <!--Sections are used to seperate major parts of an element, such as chapters of an HTML ebook, or to cordone off the comments section from the rest of the main element-->
+                </section>
+                <address>
+                    <!--An address element inside of an article element is used to provide contact info for the author of the article-->
+                </address>
+            </article>
+            <aside>
+                <!--The aside element would also be used to mark a sidebar if used outside of the main element-->
+                <section>
+                    <!--Within a sidebar you could use section elements to identify the different parts of the sidebar. For example, you could put adds in one section, related posts in a second section, and a newsletter signup form in a third section element.-->
+                </section>
+            </aside>
+        </main>
+        <footer>
+            <nav id="footer-nav">
+                <ul id="footer-ul">
+                    <li id="footer-advertising">Advertising</li>
+                    <li id="footer-business">Business</li>
+                    <li id="footer-how-search-works">How Search Works</li>
+                </ul>
+            </nav>
+            <!--The footer typically contains links to things like About Us, Privacy Policy, Contact Us and so forth. It may also contain a nav, address, section, or aside element.-->
+            <address>
+                <!--Put an address element in the footer and you're indicating that the contact info within the element is for the owner of the website rather than the author of the article.-->
+            </address>
+        </footer>
+    </body>
+
+    </html>
