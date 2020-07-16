@@ -11,26 +11,43 @@ a:hover {
     text-decoration: underline;
 }
 
+#account-img {
+    width: 30px;
+}
+
 #buttons {
     align-self: center;
     margin-top: 20px;
 }
 
-#footer-nav {
+#explore-text {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#explore-text a {
+        color: blue !important;
+}
+
+#footer {
     display: flex;
     position: absolute;
     bottom: 0;
     width: 100vw;
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
+    height: 35px;
+    border-top: 1px solid lightgray;
 }
 
-footer {
+#footer-nav {
     display: flex;
+    width: 100vw;
+    height: 35px;
     position: absolute;
     bottom: 0;
     justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
+    background-color: rgb(235, 235, 235);
 }
 
 #footer-ul-left {
@@ -41,13 +58,19 @@ footer {
 #footer-ul-right {
     display: flex;
     flex-direction: row;
-    margin-right: 25px;
 }
 
 .footer-ul li {
-    margin: 10px;
+    margin: 8px;
     font-size: 14px;
     color: rgb(129, 126, 126);
+
+}
+
+#google-apps-img {
+    height: 20px;
+    filter: opacity(70%);
+    align-self: center;
 }
 
 #google-logo {
@@ -74,8 +97,9 @@ footer {
 
 #microphone {
     margin-right: 5px;
-    width: 25px;
+    width: 30px;
     right: 0;
+    align-self: center;
 }
 
 #nav-ul-left {
@@ -93,8 +117,8 @@ footer {
 .search-button {
     margin: 10px;
     border: none;
-    height: 30px;
-    width: 120px;
+    height: 35px;
+    width: 130px;
     color: gray;
     border-radius: 4px;
 }
@@ -118,7 +142,7 @@ footer {
     align-self: center;
     border: 1px solid lightgray;
     border-radius: 25px;
-    width: 475px;
+    width: 575px;
     height: 45px;
     justify-content: space-between;
     align-items: center;
@@ -128,9 +152,19 @@ footer {
     box-shadow: 1px 1px 8px 2px lightgray;
 }
 
+.sign-in {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(52, 109, 241);
+    height: 25px;
+    width: 65px;
+    border: none;
+    border-radius: 3px;
+}
+
 #site-search {
     border: none;
-    width: 330px;
+    width: 380px;
     height: 30px;
 }
 
@@ -149,8 +183,5 @@ footer {
 .top-nav-link {
     font-size: 13px;
     padding: 15px;
-}
-
-.top-nav-link a {
-
+    align-self: center;
 }
